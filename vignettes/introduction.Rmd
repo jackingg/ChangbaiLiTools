@@ -1,0 +1,74 @@
+---
+title: "Vignette Title"
+author: "Vignette Author"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+## My functions
+
+```{r}
+example(calculate1)
+```
+
+```{r}
+example(calculate2)
+```
+
+```{r}
+example(calculate3)
+```
+
+```{r}
+example(wcalculate1)
+```
+
+```{r}
+example(wcalculate2)
+```
+
+```{r}
+example(stdization)
+```
+
+```{r}
+example(gmlestimate)
+```
+
+```{r}
+example(hlcheck)
+```
+
+```{r}
+example(mle)
+```
+
+```{r}
+example(myapply)
+```
+
+```{r}
+example(mydplyr)
+```
+
+```{r}
+example(plotArea)
+```
+
+```{r}
+example(plotLine)
+```
+
+```{r}
+example(plotPoint)
+``````
